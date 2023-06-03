@@ -1,0 +1,47 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+img {
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    top: 60%;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(0px);
+    }
+
+    /* 
+    50% {
+        transform: translate(400px);
+    } */
+
+    100% {
+        transform: translate(750px);
+    }
+}
+
+input {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 25px;
+    background: transparent;
+    border: rgb(3, 100, 245) 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(0, 153, 255);
+}
